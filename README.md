@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ECIAL Global Website
+
+## About ECIAL Global
+
+ECIAL Global is a child and women-focused non-profit organization dedicated to empowering lives through education, advocacy, and support. At the heart of our mission is the belief in the profound interconnectedness of women and children. We strive to create a lasting impact on their lives, bridging the gaps in access to quality education, healthcare, and economic opportunities.
+
+### Our Vision
+
+A world where every child and woman matters. A world free from discrimination, where every child and woman has the chance to thrive.
+
+### Our Approach
+
+We recognize the vital role women play in children's lives and vice versa. Our unique approach focuses on the interconnected empowerment of children and women, addressing the complex relationships between these two groups.
+
+## Technology Stack
+
+This website is built using modern web technologies to ensure performance, accessibility, and maintainability:
+
+- **Next.js**: A React framework for production-grade applications
+- **TypeScript**: For type-safe code and enhanced developer experience
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js (v18 or higher)
+- npm or yarn package manager
+- Git
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/iCademics/ecialglobal.git
+cd ecial-global
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Create a `.env.local` file in the root directory and add necessary environment variables:
+```bash
+NEXT_PUBLIC_API_URL=your_api_url_here
+```
+
+4. Start the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The site will be available at `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To create a production build:
 
-## Learn More
+```bash
+npm run build
+# or
+yarn build
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+ecial-global/
+├── app/             # Next.js pages and API routes
+├── components/      # Reusable UI components
+├── public/          # Static assets
+├── types/           # TypeScript type definitions
+├── utils/           # Helper functions and utilities
+└── ...
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+We welcome contributions to improve the ECIAL Global website. Please follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/improvement`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add new feature'`)
+5. Push to the branch (`git push origin feature/improvement`)
+6. Create a Pull Request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+[Add your license information here]
+
+## Contact
+
+For any queries regarding the website development, please [create an issue](https://github.com/your-username/ecial-global/issues) in the repository.
+
+For organization-related inquiries, please contact [your contact information].
+
+---
+
+Join us in our mission to create a brighter future for children and women worldwide. Together, we can make a difference!
